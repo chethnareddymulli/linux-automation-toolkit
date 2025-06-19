@@ -1,0 +1,9 @@
+ip a
+clear
+sudo reboot
+cd ~/Downloads
+cd
+..
+cd ..
+clear
+ls

@@ -1,0 +1,21 @@
+===  SYSTEM HEALTH CHECK:  Thu Jun 19 06:53:01 PM IST 2025 ===
+ 18:53:01 up 30 min,  4 users,  load average: 0.01, 0.03, 0.03
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1.8G     0  1.8G   0% /dev
+tmpfs           381M  1.1M  380M   1% /run
+/dev/sda2        20G   16G  4.1G  79% /
+tmpfs           1.9G   84K  1.9G   1% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+efivarfs        256K   92K  160K  37% /sys/firmware/efi/efivars
+/dev/sda2        20G   16G  4.1G  79% /home
+/dev/sda1       300M  592K  299M   1% /boot/efi
+tmpfs           381M  120K  381M   1% /run/user/1000
+               total        used        free      shared  buff/cache   available
+Mem:            3809         849        2217          15         968        2960
+Swap:              0           0           0
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        1035  1.7  3.0 442428 119364 tty7    Ssl+ 18:22   0:32 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+parrot      1623  0.1  2.0 1002440 78220 ?       Sl   18:23   0:03 /usr/lib/mate-panel/clock-applet
+parrot      1485  0.0  1.5 455308 60892 ?        Sl   18:23   0:00 /usr/bin/python3 /usr/bin/blueman-applet
+parrot      1436  0.0  1.5 489980 59324 ?        Sl   18:23   0:00 /usr/lib/x86_64-linux-gnu/brisk-menu/brisk-menu
+parrot      1479  0.0  1.4 897344 57100 ?        Sl   18:23   0:00 nm-applet
